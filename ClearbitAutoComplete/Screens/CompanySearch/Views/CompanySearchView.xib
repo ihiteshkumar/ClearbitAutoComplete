@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompanySearchView" customModule="ClearbitAutoComplete" customModuleProvider="target">
+            <connections>
+                <outlet property="errorView" destination="27m-Yv-nxP" id="ABc-kq-Fp1"/>
+                <outlet property="tableView" destination="squ-g5-Fb2" id="wri-hf-HbZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27m-Yv-nxP" customClass="ErrorView" customModule="ClearbitAutoComplete" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something went wrong. Check your connection." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPj-SH-slc">
+                            <rect key="frame" x="61" y="387.5" width="292.5" height="43"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oPj-SH-slc" secondAttribute="trailing" constant="20" id="MOh-4s-eqo"/>
+                        <constraint firstItem="oPj-SH-slc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="27m-Yv-nxP" secondAttribute="leading" constant="20" id="NW9-wt-Tzo"/>
+                        <constraint firstItem="oPj-SH-slc" firstAttribute="centerX" secondItem="27m-Yv-nxP" secondAttribute="centerX" id="Ne9-dm-RYk"/>
+                        <constraint firstItem="oPj-SH-slc" firstAttribute="centerY" secondItem="27m-Yv-nxP" secondAttribute="centerY" id="o76-h9-1e2"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="errorLabel" destination="oPj-SH-slc" id="Gss-X5-a8b"/>
+                    </connections>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="squ-g5-Fb2">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="27m-Yv-nxP" secondAttribute="trailing" id="2dd-DU-llX"/>
+                <constraint firstItem="27m-Yv-nxP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="5Yt-hc-KlG"/>
+                <constraint firstItem="27m-Yv-nxP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7ZC-Xb-Ifn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="squ-g5-Fb2" secondAttribute="bottom" id="IPv-uH-r55"/>
+                <constraint firstItem="squ-g5-Fb2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="TBw-fC-gv4"/>
+                <constraint firstItem="squ-g5-Fb2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mnk-Y6-4ps"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="27m-Yv-nxP" secondAttribute="bottom" id="phQ-1c-NjX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="squ-g5-Fb2" secondAttribute="trailing" id="uEB-9Q-aOC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="142"/>
+        </view>
+    </objects>
+</document>

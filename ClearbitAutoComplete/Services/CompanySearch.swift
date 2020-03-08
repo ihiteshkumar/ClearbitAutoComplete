@@ -11,7 +11,7 @@ import Foundation
 private let searchRESTMethod = "/v1/companies/suggest"
 private let baseURL = "autocomplete.clearbit.com"
 
-protocol ComapanySearching: class {
+protocol CompanySearching: class {
     func result(companies: [Company])
     func fail(err: AppError)
 }
@@ -19,7 +19,7 @@ protocol ComapanySearching: class {
 class CompanySearch {
     private lazy var service = WebService(baseURL: baseURL)
     private weak var last: URLSessionTask?
-    public weak var delegate: ComapanySearching?
+    public weak var delegate: CompanySearching?
     
     func search(with query: String) {
         if query.isEmpty {
@@ -43,8 +43,8 @@ class CompanySearch {
         }
         last = service.getMe(res: allCompanies) { [weak self] (result) in
             switch result {
-            case let .success(events):
-                self?.delegate?.result(companies: events)
+            case let .success(companies):
+                self?.delegate?.result(companies: companies)
             case let .failure(err):
                 self?.delegate?.fail(err: err)
             }
