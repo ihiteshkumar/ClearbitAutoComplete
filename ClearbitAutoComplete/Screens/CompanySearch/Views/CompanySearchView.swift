@@ -36,6 +36,7 @@ class CompanySearchView: UIViewController {
         super.viewDidLoad()
         tableView.register(UINib(nibName: String(describing: ComapnyCell.self), bundle: nil),
                            forCellReuseIdentifier: String(describing: ComapnyCell.self))
+        tableView.tableFooterView = UIView()
         setApperanceOnViewDidAppear()
         companyList.dataChanged = { [weak self] in
             DispatchQueue.main.async {

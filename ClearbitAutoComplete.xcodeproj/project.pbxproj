@@ -30,6 +30,8 @@
 		A008D8B0241585D7008533CB /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8AF241585D7008533CB /* SaveData.swift */; };
 		A008D8B2241585F7008533CB /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8B1241585F7008533CB /* RealmStorage.swift */; };
 		A008D8B424158600008533CB /* RealmCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8B324158600008533CB /* RealmCompany.swift */; };
+		A008D8B924158B87008533CB /* TestSavedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8B824158B87008533CB /* TestSavedData.swift */; };
+		A008D8BB24158B98008533CB /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8BA24158B98008533CB /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		A008D8AF241585D7008533CB /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 		A008D8B1241585F7008533CB /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
 		A008D8B324158600008533CB /* RealmCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCompany.swift; sourceTree = "<group>"; };
+		A008D8B824158B87008533CB /* TestSavedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSavedData.swift; sourceTree = "<group>"; };
+		A008D8BA24158B98008533CB /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		BD69A43F7AF77716AE24E31D /* Pods_ClearbitAutoCompleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearbitAutoCompleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteUITests.release.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteUITests/Pods-ClearbitAutoCompleteUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +183,7 @@
 		A008D857241508BB008533CB /* ClearbitAutoCompleteTests */ = {
 			isa = PBXGroup;
 			children = (
+				A008D8B624158B3E008533CB /* TestData */,
 				A008D858241508BB008533CB /* ClearbitAutoCompleteTests.swift */,
 				A008D85A241508BB008533CB /* Info.plist */,
 			);
@@ -266,6 +271,15 @@
 				A008D8AF241585D7008533CB /* SaveData.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		A008D8B624158B3E008533CB /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				A008D8B824158B87008533CB /* TestSavedData.swift */,
+				A008D8BA24158B98008533CB /* TestData.swift */,
+			);
+			path = TestData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,7 +552,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A008D8BB24158B98008533CB /* TestData.swift in Sources */,
 				A008D859241508BB008533CB /* ClearbitAutoCompleteTests.swift in Sources */,
+				A008D8B924158B87008533CB /* TestSavedData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
