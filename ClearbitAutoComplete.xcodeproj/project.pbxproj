@@ -15,6 +15,8 @@
 		A008D84E241508BB008533CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A008D84C241508BB008533CB /* LaunchScreen.storyboard */; };
 		A008D859241508BB008533CB /* ClearbitAutoCompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D858241508BB008533CB /* ClearbitAutoCompleteTests.swift */; };
 		A008D864241508BB008533CB /* ClearbitAutoCompleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D863241508BB008533CB /* ClearbitAutoCompleteUITests.swift */; };
+		A008D87B24155FDA008533CB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D87A24155FDA008533CB /* WebService.swift */; };
+		A008D87D2415601C008533CB /* CompanySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D87C2415601C008533CB /* CompanySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A008D85F241508BB008533CB /* ClearbitAutoCompleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearbitAutoCompleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A008D863241508BB008533CB /* ClearbitAutoCompleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearbitAutoCompleteUITests.swift; sourceTree = "<group>"; };
 		A008D865241508BB008533CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A008D87A24155FDA008533CB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A008D87C2415601C008533CB /* CompanySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A008D841241508BA008533CB /* AppDelegate.swift */,
+				A008D87924155FBC008533CB /* Services */,
 				A008D843241508BA008533CB /* SceneDelegate.swift */,
 				A008D845241508BA008533CB /* ViewController.swift */,
 				A008D847241508BA008533CB /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				A008D865241508BB008533CB /* Info.plist */,
 			);
 			path = ClearbitAutoCompleteUITests;
+			sourceTree = "<group>";
+		};
+		A008D87924155FBC008533CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A008D87A24155FDA008533CB /* WebService.swift */,
+				A008D87C2415601C008533CB /* CompanySearch.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A008D846241508BA008533CB /* ViewController.swift in Sources */,
+				A008D87D2415601C008533CB /* CompanySearch.swift in Sources */,
 				A008D842241508BA008533CB /* AppDelegate.swift in Sources */,
+				A008D87B24155FDA008533CB /* WebService.swift in Sources */,
 				A008D844241508BA008533CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
