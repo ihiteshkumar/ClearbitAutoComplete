@@ -450,6 +450,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClearbitAutoComplete/Pods-ClearbitAutoComplete-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A008D8B52415885C008533CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
 		B37047C497F3F72CBD3F3D50 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

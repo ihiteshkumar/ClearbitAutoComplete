@@ -1,0 +1,11 @@
+disabled_rules: # rule identifiers to exclude from running
+- force_try
+- trailing_whitespace
+- identifier_name
+- empty_enum_arguments
+- for_where
+- redundant_void_return
+- line_length
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Pods

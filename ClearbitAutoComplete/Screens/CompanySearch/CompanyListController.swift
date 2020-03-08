@@ -67,7 +67,7 @@ extension CompanyListController: CompanySearching {
         searchState = .error(err)
     }
 
-    func result(companies : [Company]) {
+    func result(companies: [Company]) {
         searchState = companies.count > 0 ? .loaded : .noData
         self.companies = companies
     }
