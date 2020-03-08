@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E10C66FB1571236DF172C46 /* Pods_ClearbitAutoCompleteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FA9026238631E809F018E5 /* Pods_ClearbitAutoCompleteUITests.framework */; };
+		6DAECD964AA344F02AB98A25 /* Pods_ClearbitAutoCompleteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD69A43F7AF77716AE24E31D /* Pods_ClearbitAutoCompleteTests.framework */; };
+		87CED3B77FB6F1E129FC1972 /* Pods_ClearbitAutoComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9C2268AB5366E23EC8307F /* Pods_ClearbitAutoComplete.framework */; };
 		A008D842241508BA008533CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D841241508BA008533CB /* AppDelegate.swift */; };
 		A008D844241508BA008533CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D843241508BA008533CB /* SceneDelegate.swift */; };
 		A008D84B241508BB008533CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A008D84A241508BB008533CB /* Assets.xcassets */; };
@@ -44,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B9C2268AB5366E23EC8307F /* Pods_ClearbitAutoComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearbitAutoComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FA9026238631E809F018E5 /* Pods_ClearbitAutoCompleteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearbitAutoCompleteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D25B76C16E46EFF0571BC4 /* Pods-ClearbitAutoComplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoComplete.release.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoComplete/Pods-ClearbitAutoComplete.release.xcconfig"; sourceTree = "<group>"; };
+		70C71A9BB46E0C5768BDF0A8 /* Pods-ClearbitAutoComplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoComplete.debug.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoComplete/Pods-ClearbitAutoComplete.debug.xcconfig"; sourceTree = "<group>"; };
+		881E006FFF08CB40CA062CCE /* Pods-ClearbitAutoCompleteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteUITests/Pods-ClearbitAutoCompleteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC4D82371F7CCFFA55E95A3 /* Pods-ClearbitAutoCompleteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteTests.release.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteTests/Pods-ClearbitAutoCompleteTests.release.xcconfig"; sourceTree = "<group>"; };
+		95E06ECFC29BAABB32E212EA /* Pods-ClearbitAutoCompleteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteTests.debug.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteTests/Pods-ClearbitAutoCompleteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A008D83E241508BA008533CB /* ClearbitAutoComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearbitAutoComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A008D841241508BA008533CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A008D843241508BA008533CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 		A008D89424156D0F008533CB /* ComapnyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComapnyCell.xib; sourceTree = "<group>"; };
 		A008D89F24157E9B008533CB /* CompanyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
 		A008D8A024157E9B008533CB /* CompanyDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyDetailView.xib; sourceTree = "<group>"; };
+		BD69A43F7AF77716AE24E31D /* Pods_ClearbitAutoCompleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearbitAutoCompleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteUITests.release.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteUITests/Pods-ClearbitAutoCompleteUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CED3B77FB6F1E129FC1972 /* Pods_ClearbitAutoComplete.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DAECD964AA344F02AB98A25 /* Pods_ClearbitAutoCompleteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +102,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E10C66FB1571236DF172C46 /* Pods_ClearbitAutoCompleteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F946310A210488C4345CBC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70C71A9BB46E0C5768BDF0A8 /* Pods-ClearbitAutoComplete.debug.xcconfig */,
+				66D25B76C16E46EFF0571BC4 /* Pods-ClearbitAutoComplete.release.xcconfig */,
+				95E06ECFC29BAABB32E212EA /* Pods-ClearbitAutoCompleteTests.debug.xcconfig */,
+				8DC4D82371F7CCFFA55E95A3 /* Pods-ClearbitAutoCompleteTests.release.xcconfig */,
+				881E006FFF08CB40CA062CCE /* Pods-ClearbitAutoCompleteUITests.debug.xcconfig */,
+				BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1508C909C1E6E8221067F518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C2268AB5366E23EC8307F /* Pods_ClearbitAutoComplete.framework */,
+				BD69A43F7AF77716AE24E31D /* Pods_ClearbitAutoCompleteTests.framework */,
+				58FA9026238631E809F018E5 /* Pods_ClearbitAutoCompleteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A008D835241508BA008533CB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,8 @@
 				A008D857241508BB008533CB /* ClearbitAutoCompleteTests */,
 				A008D862241508BB008533CB /* ClearbitAutoCompleteUITests */,
 				A008D83F241508BA008533CB /* Products */,
+				0F946310A210488C4345CBC1 /* Pods */,
+				1508C909C1E6E8221067F518 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A008D868241508BB008533CB /* Build configuration list for PBXNativeTarget "ClearbitAutoComplete" */;
 			buildPhases = (
+				B37047C497F3F72CBD3F3D50 /* [CP] Check Pods Manifest.lock */,
 				A008D83A241508BA008533CB /* Sources */,
 				A008D83B241508BA008533CB /* Frameworks */,
 				A008D83C241508BA008533CB /* Resources */,
+				5B020DDDE369666C6DC7FCEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A008D86B241508BB008533CB /* Build configuration list for PBXNativeTarget "ClearbitAutoCompleteTests" */;
 			buildPhases = (
+				E36A172E8CB2A6D24024F083 /* [CP] Check Pods Manifest.lock */,
 				A008D850241508BB008533CB /* Sources */,
 				A008D851241508BB008533CB /* Frameworks */,
 				A008D852241508BB008533CB /* Resources */,
@@ -253,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A008D86E241508BB008533CB /* Build configuration list for PBXNativeTarget "ClearbitAutoCompleteUITests" */;
 			buildPhases = (
+				3B95F2188CBF409893E2C644 /* [CP] Check Pods Manifest.lock */,
 				A008D85B241508BB008533CB /* Sources */,
 				A008D85C241508BB008533CB /* Frameworks */,
 				A008D85D241508BB008533CB /* Resources */,
@@ -338,6 +383,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B95F2188CBF409893E2C644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearbitAutoCompleteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B020DDDE369666C6DC7FCEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClearbitAutoComplete/Pods-ClearbitAutoComplete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClearbitAutoComplete/Pods-ClearbitAutoComplete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B37047C497F3F72CBD3F3D50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearbitAutoComplete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36A172E8CB2A6D24024F083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClearbitAutoCompleteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A008D83A241508BA008533CB /* Sources */ = {
@@ -516,6 +656,7 @@
 		};
 		A008D869241508BB008533CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C71A9BB46E0C5768BDF0A8 /* Pods-ClearbitAutoComplete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +674,7 @@
 		};
 		A008D86A241508BB008533CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D25B76C16E46EFF0571BC4 /* Pods-ClearbitAutoComplete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +692,7 @@
 		};
 		A008D86C241508BB008533CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E06ECFC29BAABB32E212EA /* Pods-ClearbitAutoCompleteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +714,7 @@
 		};
 		A008D86D241508BB008533CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC4D82371F7CCFFA55E95A3 /* Pods-ClearbitAutoCompleteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +736,7 @@
 		};
 		A008D86F241508BB008533CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881E006FFF08CB40CA062CCE /* Pods-ClearbitAutoCompleteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +756,7 @@
 		};
 		A008D870241508BB008533CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
