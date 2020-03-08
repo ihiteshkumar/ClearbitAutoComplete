@@ -27,6 +27,9 @@
 		A008D89624156D0F008533CB /* ComapnyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A008D89424156D0F008533CB /* ComapnyCell.xib */; };
 		A008D8A124157E9B008533CB /* CompanyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D89F24157E9B008533CB /* CompanyDetailView.swift */; };
 		A008D8A224157E9B008533CB /* CompanyDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A008D8A024157E9B008533CB /* CompanyDetailView.xib */; };
+		A008D8B0241585D7008533CB /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8AF241585D7008533CB /* SaveData.swift */; };
+		A008D8B2241585F7008533CB /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8B1241585F7008533CB /* RealmStorage.swift */; };
+		A008D8B424158600008533CB /* RealmCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008D8B324158600008533CB /* RealmCompany.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		A008D89424156D0F008533CB /* ComapnyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComapnyCell.xib; sourceTree = "<group>"; };
 		A008D89F24157E9B008533CB /* CompanyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
 		A008D8A024157E9B008533CB /* CompanyDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyDetailView.xib; sourceTree = "<group>"; };
+		A008D8AF241585D7008533CB /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		A008D8B1241585F7008533CB /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
+		A008D8B324158600008533CB /* RealmCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCompany.swift; sourceTree = "<group>"; };
 		BD69A43F7AF77716AE24E31D /* Pods_ClearbitAutoCompleteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearbitAutoCompleteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClearbitAutoCompleteUITests.release.xcconfig"; path = "Target Support Files/Pods-ClearbitAutoCompleteUITests/Pods-ClearbitAutoCompleteUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +125,6 @@
 				881E006FFF08CB40CA062CCE /* Pods-ClearbitAutoCompleteUITests.debug.xcconfig */,
 				BEE800099B7FD913724750D0 /* Pods-ClearbitAutoCompleteUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,10 +163,11 @@
 		A008D840241508BA008533CB /* ClearbitAutoComplete */ = {
 			isa = PBXGroup;
 			children = (
-				A008D881241563BD008533CB /* Screens */,
-				A008D87E241561C7008533CB /* Models */,
 				A008D841241508BA008533CB /* AppDelegate.swift */,
 				A008D87924155FBC008533CB /* Services */,
+				A008D881241563BD008533CB /* Screens */,
+				A008D87E241561C7008533CB /* Models */,
+				A008D8A6241584EA008533CB /* Store */,
 				A008D843241508BA008533CB /* SceneDelegate.swift */,
 				A008D84A241508BB008533CB /* Assets.xcassets */,
 				A008D84C241508BB008533CB /* LaunchScreen.storyboard */,
@@ -252,6 +258,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A008D8A6241584EA008533CB /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A008D8B324158600008533CB /* RealmCompany.swift */,
+				A008D8B1241585F7008533CB /* RealmStorage.swift */,
+				A008D8AF241585D7008533CB /* SaveData.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +280,7 @@
 				A008D83B241508BA008533CB /* Frameworks */,
 				A008D83C241508BA008533CB /* Resources */,
 				5B020DDDE369666C6DC7FCEA /* [CP] Embed Pods Frameworks */,
+				A008D8B52415885C008533CB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -492,8 +509,11 @@
 				A008D842241508BA008533CB /* AppDelegate.swift in Sources */,
 				A008D87B24155FDA008533CB /* WebService.swift in Sources */,
 				A008D844241508BA008533CB /* SceneDelegate.swift in Sources */,
+				A008D8B424158600008533CB /* RealmCompany.swift in Sources */,
+				A008D8B2241585F7008533CB /* RealmStorage.swift in Sources */,
 				A008D89024156B87008533CB /* ErrorView.swift in Sources */,
 				A008D880241561FD008533CB /* Company.swift in Sources */,
+				A008D8B0241585D7008533CB /* SaveData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

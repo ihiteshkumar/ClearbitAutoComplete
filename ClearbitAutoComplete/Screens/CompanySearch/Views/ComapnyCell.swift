@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ComapnyCell: UITableViewCell {
 
@@ -33,10 +34,12 @@ class ComapnyCell: UITableViewCell {
         companyNameLabel.text = company.name
         domainLabel.text = company.domain
         if let imageURL = URL(string: company.logo) {
-//            logoImage.image =
-            logoImage.image = UIImage(named: "noImage")
+            logoImage.kf.setImage(with: imageURL,
+                                  placeholder: UIImage(named: "noImage"))
         } else {
+            logoImage.backgroundColor = .gray
             logoImage.image = UIImage(named: "noImage")
+            logoImage.contentMode = .scaleAspectFit
         }
     }
 }

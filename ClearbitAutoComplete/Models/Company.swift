@@ -13,3 +13,11 @@ struct Company: Codable {
     let domain: String
     let logo: String
 }
+
+extension Company {
+    init(realmCompany: RealmCompany) {
+        self.init(name: realmCompany.name,
+                  domain: realmCompany.domain,
+                  logo: realmCompany.logo)
+    }
+}
