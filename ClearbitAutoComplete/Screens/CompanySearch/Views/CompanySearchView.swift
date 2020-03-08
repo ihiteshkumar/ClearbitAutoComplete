@@ -105,7 +105,9 @@ class CompanySearchView: UIViewController {
 extension CompanySearchView: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // TODO
+        let companyDetailView = CompanyDetailView(company: companyList.details(for: indexPath.row))
+        navigationItem.searchController?.resignFirstResponder()
+        navigationController?.pushViewController(companyDetailView, animated: true)
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
